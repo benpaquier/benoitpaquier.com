@@ -7,7 +7,7 @@
 	<span class="greeting">Je suis{` `}</span>
 	<h1 class="greeting">Benoit Paquier</h1>
 	<span class="greeting">.</span>
-	<h3>Formateur & développeur web indépendant</h3>
+	<h4>Formateur & développeur web indépendant</h4>
 </Section>
 
 <style>
@@ -20,7 +20,7 @@
 		font-size: 5rem;
 	}
 
-	h3 {
+	h4 {
 		font-family: 'Raleway-Bold';
 		font-size: 2rem;
 		margin-top: 1rem;
@@ -37,7 +37,7 @@
 			font-size: 3rem;
 		}
 
-		h3 {
+		h4 {
 			font-size: 1.5rem;
 		}
 	}

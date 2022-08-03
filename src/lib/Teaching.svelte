@@ -25,7 +25,7 @@
 		{#each experiences as experience}
 			<article>
 				<div>
-					<h4>{experience.title}</h4>
+					<h3>{experience.title}</h3>
 					<span>• {experience.occupation}</span>
 					<p>{@html experience.description}</p>
 				</div>
@@ -57,7 +57,7 @@
 		justify-content: space-between;
 	}
 
-	h4 {
+	h3 {
 		font-family: 'Raleway-Bold';
 		display: inline;
 	}
