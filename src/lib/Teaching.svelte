@@ -20,12 +20,12 @@
 </script>
 
 <Section>
-	<h2>Formation</h2>
+	<h3>Formation</h3>
 	<div class="grid">
 		{#each experiences as experience}
 			<article>
 				<div>
-					<h3>{experience.title}</h3>
+					<h4>{experience.title}</h4>
 					<span>• {experience.occupation}</span>
 					<p>{@html experience.description}</p>
 				</div>
@@ -36,8 +36,8 @@
 </Section>
 
 <style>
-	h2 {
-		font-family: 'Raleway-Black';
+	h3 {
+		font-family: 'Raleway-Black', sans-serif;
 		font-size: 3rem;
 		margin-bottom: 2rem;
 	}
@@ -57,8 +57,8 @@
 		justify-content: space-between;
 	}
 
-	h3 {
-		font-family: 'Raleway-Bold';
+	h4 {
+		font-family: 'Raleway-Bold', sans-serif;
 		display: inline;
 	}
 
@@ -69,7 +69,7 @@
 
 	a {
 		color: var(--teal);
-		font-family: 'Raleway-Bold';
+		font-family: 'Raleway-Bold', sans-serif;
 	}
 
 	@media (max-width: 992px) {

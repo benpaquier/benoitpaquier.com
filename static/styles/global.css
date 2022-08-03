@@ -1,20 +1,30 @@
 @font-face {
-  font-family: "Raleway-Regular", sans-serif;
-  src: url('../fonts/raleway-regular-webfont.woff2') format('woff2');
+  font-family: 'Raleway-Regular';
+  src: url('../fonts/raleway-regular-webfont.woff2') format('woff2'),
+       url('../fonts/raleway-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-  font-family: "Raleway-Bold", sans-serif;
-  src: url('../fonts/raleway-bold-webfont.woff2') format('woff2');
+  font-family: 'Raleway-Bold';
+  src: url('../fonts/raleway-bold-webfont.woff2') format('woff2'),
+       url('../fonts/raleway-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
 }
 
 @font-face {
-  font-family: "Raleway-Black", sans-serif;
-  src: url('../fonts/raleway-black-webfont.woff2') format('woff2');
+  font-family: 'Raleway-Black';
+  src: url('../fonts/raleway-black-webfont.woff2') format('woff2'),
+       url('../fonts/raleway-black-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
   font-size: 18px;
-  font-family: "Raleway-Regular";
+  font-family: "Raleway-Regular", sans-serif;
   color: var(--darkBlue);
 }
