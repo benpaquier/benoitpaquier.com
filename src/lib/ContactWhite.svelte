@@ -24,8 +24,9 @@
 		</div>
 		<div class="grid-item">
 			<picture>
-				<source srcset="/images/contact/contact.webp" />
-				<img src="/images/contact/contact.webp" alt="Benoit Paquier" />
+				<source srcset="/images/contact/contact.webp" type="image/webp" />
+				<source srcset="/images/contact/contact.jpeg" type="image/jpeg" />
+				<img src="/images/contact/contact.jpeg" alt="Benoit Paquier" width="300" height="388" />
 			</picture>
 		</div>
 	</div>
