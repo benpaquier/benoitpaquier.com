@@ -83,4 +83,9 @@ body {
   font-size: 18px;
   font-family: "Raleway-Regular", sans-serif;
   color: var(--darkBlue);
+  background-color: var(--darkBlue);
+}
+
+main {
+  background-color: white;
 }

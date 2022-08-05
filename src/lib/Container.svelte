@@ -1,9 +1,9 @@
-<main>
+<div>
 	<slot />
-</main>
+</div>
 
 <style>
-	main {
+	div {
 		max-width: 1200px;
 		width: calc(100% - 1.5rem);
 		margin: 0 auto;
