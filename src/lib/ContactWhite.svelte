@@ -54,7 +54,7 @@
 
 	p {
 		font-family: 'Raleway-Bold', sans-serif;
-		margin-bottom: 0.5rem;
+		margin-bottom: 2rem;
 	}
 
 	a {
@@ -77,10 +77,6 @@
 			display: flex;
 			width: 100%;
 			flex-direction: column;
-		}
-
-		img {
-			margin-top: 2rem;
 		}
 	}
 </style>
