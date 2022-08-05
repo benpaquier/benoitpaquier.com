@@ -13,5 +13,4 @@
 		<Services />
 		<Contact />
 	</Container>
-	<!-- <Contact /> -->
 </main>
