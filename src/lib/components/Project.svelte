@@ -1,5 +1,5 @@
 <script>
-	export let src, alt, width, height, title, link
+	export let src, title, link
 
 	let hoverClass = ''
 
