@@ -13,8 +13,12 @@
 </script>
 
 <a href={link} target="_blank">
-	<article class={hoverClass} on:mouseenter={onMouseEnter} on:mouseleave={onMouseLeave}>
-		<img {alt} loading="lazy" decoding="async" {width} {height} {src} />
+	<article
+		class={hoverClass}
+		on:mouseenter={onMouseEnter}
+		on:mouseleave={onMouseLeave}
+		style={`background-image: url(${src});`}
+	>
 		<h5>{title}</h5>
 	</article>
 </a>
@@ -26,24 +30,19 @@
 
 	article {
 		position: relative;
-		width: 368px;
 		height: 368px;
 		display: flex;
 		align-items: flex-end;
 		border-radius: 6px;
 		box-shadow: 0px 0px 17px -10px rgba(0, 0, 0, 0.2);
 		overflow: hidden;
+		background-position: center;
+		background-size: 100%;
+		transition: all 1s ease-out 0s;
 	}
 
-	article img {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		transition: all 0.5s ease-out 0s;
-	}
-
-	article.active img {
-		transform: scale(1.1);
+	article.active {
+		background-size: 105%;
 	}
 
 	h5 {

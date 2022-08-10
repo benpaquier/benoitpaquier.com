@@ -3,16 +3,16 @@
 	import Project from '$lib/components/Project.svelte'
 
 	// images
-	import usewalter from '$lib/assets/images/usewalter.jpeg?width=500&height=500&webp'
-	import vuse from '$lib/assets/images/vuse.png?width=500&height=500&webp'
-	import volume7 from '$lib/assets/images/volume7.png?width=500&height=500&webp'
-	import yapouni from '$lib/assets/images/yapouni.jpeg?width=500&height=500&webp'
-	import yse from '$lib/assets/images/yse.jpeg?width=500&height=500&webp'
-	import nink from '$lib/assets/images/nink.png?width=500&height=500&webp'
-	import lyrebird from '$lib/assets/images/lyrebird.png?width=500&height=500&webp'
-	import viensla from '$lib/assets/images/viens-la.png?width=500&height=500&webp'
-	import koolicar from '$lib/assets/images/koolicare.png?width=500&height=500&webp'
-	import ptp from '$lib/assets/images/paye-ta-pinte.png?width=500&height=500&webp'
+	import usewalter from '$lib/assets/images/usewalter.jpeg?width=576&height=576&webp'
+	import vuse from '$lib/assets/images/vuse.png?width=576&height=576&webp'
+	import volume7 from '$lib/assets/images/volume7.png?width=576&height=576&webp'
+	import yapouni from '$lib/assets/images/yapouni.jpeg?width=576&height=576&webp'
+	import yse from '$lib/assets/images/yse.jpeg?width=576&height=576&webp'
+	import nink from '$lib/assets/images/nink.png?width=576&height=576&webp'
+	import lyrebird from '$lib/assets/images/lyrebird.png?width=576&height=576&webp'
+	import viensla from '$lib/assets/images/viens-la.png?width=576&height=576&webp'
+	import koolicar from '$lib/assets/images/koolicare.png?width=576&height=576&webp'
+	import ptp from '$lib/assets/images/paye-ta-pinte.png?width=576&height=576&webp'
 
 	const width = 368
 	const height = 368
@@ -102,5 +102,17 @@
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
 		gap: 2rem;
+	}
+
+	@media (max-width: 992px) {
+		.grid {
+			grid-template-columns: repeat(2, 1fr);
+		}
+	}
+
+	@media (max-width: 576px) {
+		.grid {
+			grid-template-columns: repeat(1, 1fr);
+		}
 	}
 </style>
