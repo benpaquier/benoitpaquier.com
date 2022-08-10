@@ -59,4 +59,10 @@
 	article.active p {
 		opacity: 1;
 	}
+
+	@media (max-width: 992px) {
+		p {
+			opacity: 1;
+		}
+	}
 </style>
