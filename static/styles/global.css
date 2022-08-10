@@ -89,3 +89,9 @@ body {
 main {
   background-color: white;
 }
+
+h3 {
+  font-family: 'Raleway-Black', sans-serif;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
