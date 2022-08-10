@@ -19,7 +19,7 @@
 		on:mouseleave={onMouseLeave}
 		style={`background-image: url(${src});`}
 	>
-		<h5>{title}</h5>
+		<p>{title}</p>
 	</article>
 </a>
 
@@ -45,7 +45,7 @@
 		background-size: 105%;
 	}
 
-	h5 {
+	p {
 		color: white;
 		font-family: 'Raleway-Bold';
 		z-index: 2;
@@ -55,7 +55,7 @@
 		transition: all 0.5s ease-out 0s;
 	}
 
-	article.active h5 {
+	article.active p {
 		opacity: 1;
 	}
 </style>
