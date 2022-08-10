@@ -38,6 +38,7 @@
 		overflow: hidden;
 		background-position: center;
 		background-size: 100%;
+		background-repeat: no-repeat;
 		transition: all 1s ease-out 0s;
 	}
 
