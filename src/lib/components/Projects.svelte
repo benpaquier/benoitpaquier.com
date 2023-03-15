@@ -3,6 +3,8 @@
 	import Project from '$lib/components/Project.svelte'
 
 	// images
+	import fairness from '$lib/assets/images/fairness.jpg?width=576&height=576&webp'
+	import immby from '$lib/assets/images/immby.jpg?width=576&height=576&webp'
 	import usewalter from '$lib/assets/images/usewalter.jpeg?width=576&height=576&webp'
 	import vuse from '$lib/assets/images/vuse.png?width=576&height=576&webp'
 	import volume7 from '$lib/assets/images/volume7.png?width=576&height=576&webp'
@@ -21,76 +23,23 @@
 <Section>
 	<h3>Références</h3>
 	<div class="grid">
-		<Project
-			src={usewalter}
-			{width}
-			{height}
-			alt="Usewalter"
-			title="Usewalter"
-			link="https://usewalter.com/"
-		/>
-		<Project
-			src={vuse}
-			{width}
-			{height}
-			alt="Vuse.com"
-			title="Vuse.com"
-			link="https://www.vuse.com/ca/en/"
-		/>
-		<Project
-			src={volume7}
-			{width}
-			{height}
-			alt="Volume7"
-			title="Volume7"
-			link="https://volume7.io/"
-		/>
-		<Project
-			src={yapouni}
-			{width}
-			{height}
-			alt="Yapouni"
-			title="Yapouni"
-			link="https://yapouni.com/"
-		/>
-		<Project
-			src={yse}
-			{width}
-			{height}
-			alt="Ysé Paris"
-			title="Ysé Paris"
-			link="https://yse-paris.com/"
-		/>
-		<Project src={nink} {width} {height} alt="Nink" title="Nink" link="https://nink.netlify.app/" />
+		<Project src={fairness} title="Fairness" link="https://fairness.coop/" />
+		<Project src={immby} title="Immby" link="https://immby.com/" />
+		<Project src={usewalter} title="Usewalter" link="https://usewalter.com/" />
+		<Project src={vuse} title="Vuse.com" link="https://www.vuse.com/ca/en/" />
+		<Project src={volume7} title="Volume7" link="https://volume7.io/" />
+		<Project src={yapouni} title="Yapouni" link="https://yapouni.com/" />
+		<Project src={yse} title="Ysé Paris" link="https://yse-paris.com/" />
+		<Project src={nink} title="Nink" link="https://nink.netlify.app/" />
 		<Project
 			src={lyrebird}
-			{width}
-			{height}
-			alt="Lyrebird"
 			title="Lyrebird"
 			link="https://www.descript.com/overdub?lyrebird=true"
 		/>
-		<Project
-			src={viensla}
-			{width}
-			{height}
-			alt="Viens-la"
-			title="Viens-la"
-			link="https://viens-la.com/"
-		/>
-		<Project
-			src={koolicar}
-			{width}
-			{height}
-			alt="Koolicar"
-			title="Koolicar"
-			link="https://www.openfleet.com/"
-		/>
+		<Project src={viensla} title="Viens-la" link="https://viens-la.com/" />
+		<Project src={koolicar} title="Koolicar" link="https://www.openfleet.com/" />
 		<Project
 			src={ptp}
-			{width}
-			{height}
-			alt="Paye ta pinte"
 			title="Paye ta pinte"
 			link="https://www.behance.net/gallery/28324731/Paye-Ta-Pinte-MOBILE-APP?fbclid=IwAR110DYxld2j7nK2ZA3WqM1dP7bcYNEv_5kEsKQ2sd-ebkrDxUKw_3_6Pxc"
 		/>

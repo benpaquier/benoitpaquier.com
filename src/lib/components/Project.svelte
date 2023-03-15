@@ -13,12 +13,8 @@
 </script>
 
 <a href={link} target="_blank">
-	<article
-		class={hoverClass}
-		on:mouseenter={onMouseEnter}
-		on:mouseleave={onMouseLeave}
-		style={`background-image: url(${src});`}
-	>
+	<article class={hoverClass} on:mouseenter={onMouseEnter} on:mouseleave={onMouseLeave}>
+		<div class="img" style={`background-image: url(${src});`} />
 		<p>{title}</p>
 	</article>
 </a>
@@ -36,14 +32,28 @@
 		border-radius: 6px;
 		box-shadow: 0px 0px 17px -10px rgba(0, 0, 0, 0.2);
 		overflow: hidden;
+		background-color: transparent;
+		transition: all 0.3s ease-out 0s;
+	}
+
+	.img {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
 		background-position: center;
-		background-size: 100%;
+		background-size: cover;
 		background-repeat: no-repeat;
-		transition: all 1s ease-out 0s;
+		transition: all 0.3s ease-out 0s;
 	}
 
 	article.active {
-		background-size: 105%;
+		background-color: black;
+	}
+
+	article.active .img {
+		opacity: 0.75;
 	}
 
 	p {
@@ -53,7 +63,7 @@
 		padding-left: 1rem;
 		padding-bottom: 1rem;
 		opacity: 0;
-		transition: all 0.5s ease-out 0s;
+		transition: all 0.3s ease-out 0s;
 	}
 
 	article.active p {
