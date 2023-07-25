@@ -6,7 +6,7 @@
 			title: '🎓  Konexio',
 			occupation: 'Formateur',
 			description:
-				"Je suis formateur principal sur un la formation <i>Développeur web et web mobile chez Konexio</i>. La formation est une formation en alternance initiée par un Bootcamp intensif de 3 mois et demi, suivi du cursus alternance pendant 9 mois. Je forme au métier de développeur web fullstack, avec notamment HTML5/CSS3, Javascript, Typescript, Algorithmique, React, Node, Express, SQL, NoSQL, tout en mettant en avant l'accessibilité web et bien sur l'éco-conception.",
+				"J'ai été formateur principal, de 2021 à 2023, sur la formation <i>Développeur web et web mobile chez Konexio</i>. La formation est une formation en alternance initiée par un Bootcamp intensif de 3 mois et demi, suivi du cursus alternance pendant 9 mois. Je forme au métier de développeur web fullstack, avec notamment HTML5/CSS3, Javascript, Typescript, Algorithmique, React, Node, Express, SQL, NoSQL, tout en mettant en avant l'accessibilité web et bien sur l'éco-conception.",
 			url: 'https://www.konexio.eu/'
 		},
 		{

@@ -10,8 +10,8 @@
 <main>
 	<Container>
 		<Hero />
-		<Teaching />
 		<Projects />
+		<Teaching />
 		<Services />
 		<Contact />
 	</Container>

@@ -3,6 +3,7 @@
 	import Project from '$lib/components/Project.svelte'
 
 	// images
+	import radiofrance from '$lib/assets/images/radiofrance.jpg?width=576&height=576&webp'
 	import fairness from '$lib/assets/images/fairness.jpg?width=576&height=576&webp'
 	import immby from '$lib/assets/images/immby.jpg?width=576&height=576&webp'
 	import usewalter from '$lib/assets/images/usewalter.jpeg?width=576&height=576&webp'
@@ -23,6 +24,7 @@
 <Section>
 	<h3>Références</h3>
 	<div class="grid">
+		<Project src={radiofrance} title="Radiofrance" link="https://radiofrance.fr/" />
 		<Project src={fairness} title="Fairness" link="https://fairness.coop/" />
 		<Project src={immby} title="Immby" link="https://immby.com/" />
 		<Project src={usewalter} title="Usewalter" link="https://usewalter.com/" />
