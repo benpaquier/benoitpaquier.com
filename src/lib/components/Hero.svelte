@@ -7,7 +7,10 @@
 	<span class="greeting">Je suis{` `}</span>
 	<h1 class="greeting">Benoit Paquier</h1>
 	<span class="greeting">.</span>
-	<h2>Formateur & développeur web indépendant</h2>
+	<h2>
+		Développeur web, coopérateur chez <a href="https://fairness.coop" target="_blank">Fairness</a>,
+		formateur
+	</h2>
 </Section>
 
 <style>
@@ -24,6 +27,11 @@
 		font-family: 'Raleway-Bold', sans-serif;
 		font-size: 2rem;
 		margin-top: 1rem;
+	}
+
+	a {
+		color: var(--teal);
+		font-family: 'Raleway-Bold', sans-serif;
 	}
 
 	@media (max-width: 992px) {
